@@ -1,0 +1,15 @@
+================ TEST PRETTY ================
+(λx. x 5)
+================ TEST EVAL SIMPLE ================
+Résultat = 10
+================ TEST LISTES ================
+Head = 1
+Tail = [2]
+================ TEST FIX (fact 5) ================
+Résultat = 120
+================ TEST REFERENCES ================
+Résultat = ()
+Mémoire finale = [(0 , 42)]
+================ TEST TYPAGE ================
+Type = T1
+================ FIN DES TESTS ================
