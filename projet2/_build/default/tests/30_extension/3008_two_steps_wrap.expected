@@ -1,0 +1,2 @@
+tests/30_extension/3008_two_steps_wrap.c:5.2-11: [ x in [-2147483648;-2147483648] ]
+analysis ended

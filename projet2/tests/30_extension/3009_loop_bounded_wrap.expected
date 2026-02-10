@@ -1,0 +1,2 @@
+tests/30_extension/3009_loop_bounded_wrap.c:10.2-11: [ x in [-2147483648;2147483647] ]
+analysis ended

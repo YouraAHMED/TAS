@@ -1,0 +1,2 @@
+tests/30_extension/3001_add_overflow.c:5.2-11: [ x in [-2147483648;-2147483648] ]
+analysis ended

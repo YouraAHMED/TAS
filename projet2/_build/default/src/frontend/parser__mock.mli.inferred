@@ -1,0 +1,70 @@
+type token =
+    TOK_int of string
+  | TOK_id of string
+  | TOK_WHILE
+  | TOK_TRUE
+  | TOK_STAR
+  | TOK_SEMICOLON
+  | TOK_RPAREN
+  | TOK_RCURLY
+  | TOK_RAND
+  | TOK_PRINT_ALL
+  | TOK_PRINT
+  | TOK_PLUS
+  | TOK_NOT_EQUAL
+  | TOK_MINUS
+  | TOK_LPAREN
+  | TOK_LESS_EQUAL
+  | TOK_LESS
+  | TOK_LCURLY
+  | TOK_INT
+  | TOK_IF
+  | TOK_HALT
+  | TOK_GREATER_EQUAL
+  | TOK_GREATER
+  | TOK_FALSE
+  | TOK_EXCLAIM
+  | TOK_EQUAL_EQUAL
+  | TOK_EQUAL
+  | TOK_EOF
+  | TOK_ELSE
+  | TOK_DIVIDE
+  | TOK_COMMA
+  | TOK_BAR_BAR
+  | TOK_ASSERT
+  | TOK_AND_AND
+val menhir_begin_marker : int
+val xv_typ : Abstract_syntax_tree.typ
+val xv_stat : Abstract_syntax_tree.stat
+val xv_sign_int_literal : string
+val xv_separated_nonempty_list_TOK_COMMA_ext_TOK_id__ :
+  string Abstract_syntax_tree.ext list
+val xv_separated_list_TOK_COMMA_ext_TOK_id__ :
+  string Abstract_syntax_tree.ext list
+val xv_loption_separated_nonempty_list_TOK_COMMA_ext_TOK_id___ :
+  string Abstract_syntax_tree.ext list
+val xv_list_ext_stat__ : Abstract_syntax_tree.prog
+val xv_list_ext_decl__ :
+  (Abstract_syntax_tree.typ * string) Abstract_syntax_tree.ext list
+val xv_int_unary_op : Abstract_syntax_tree.int_unary_op
+val xv_int_expr : Abstract_syntax_tree.int_expr
+val xv_int_binary_op : Abstract_syntax_tree.int_binary_op
+val xv_file : Abstract_syntax_tree.prog
+val xv_ext_stat_ : Abstract_syntax_tree.stat Abstract_syntax_tree.ext
+val xv_ext_sign_int_literal_ : string Abstract_syntax_tree.ext
+val xv_ext_int_expr_ : Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+val xv_ext_decl_ :
+  (Abstract_syntax_tree.typ * string) Abstract_syntax_tree.ext
+val xv_ext_bool_expr_ :
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+val xv_ext_TOK_int_ : string Abstract_syntax_tree.ext
+val xv_ext_TOK_id_ : string Abstract_syntax_tree.ext
+val xv_decl : Abstract_syntax_tree.typ * string
+val xv_compare_op : Abstract_syntax_tree.compare_op
+val xv_bool_unary_op : Abstract_syntax_tree.bool_unary_op
+val xv_bool_expr : Abstract_syntax_tree.bool_expr
+val xv_bool_binary_op : Abstract_syntax_tree.bool_binary_op
+val xv_block :
+  (Abstract_syntax_tree.typ * string) Abstract_syntax_tree.ext list *
+  Abstract_syntax_tree.prog
+val menhir_end_marker : int

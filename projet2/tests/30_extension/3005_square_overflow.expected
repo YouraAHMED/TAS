@@ -1,0 +1,2 @@
+tests/30_extension/3005_square_overflow.c:5.2-11: [ x in [-2147479015;-2147479015] ]
+analysis ended

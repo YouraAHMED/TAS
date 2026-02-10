@@ -1,0 +1,2 @@
+tests/30_extension/3006_div_min_by_minus1.c:5.2-11: [ x in [-2147483648;2147483647] ]
+analysis ended

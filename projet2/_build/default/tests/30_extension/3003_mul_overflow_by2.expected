@@ -1,0 +1,2 @@
+tests/30_extension/3003_mul_overflow_by2.c:5.2-11: [ x in [-2;-2] ]
+analysis ended

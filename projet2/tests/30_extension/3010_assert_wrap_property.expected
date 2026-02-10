@@ -1,0 +1,2 @@
+tests/30_extension/3010_assert_wrap_property.c:6.2-11: [ x in [-2147483639;-2147483639] ]
+analysis ended
